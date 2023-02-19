@@ -1,0 +1,7 @@
+EN el repo://github.com/pedrolp85/ex288_ex1
+se encuentra una app en nodejs express 
+Despliega dicha aplicacion cumpliendo los siguientes condiciones:
+ - projecto: greet-project
+ - app_name: greet
+ - builder image: nodejs:16-ubi8
+ - add a build env var npm_config_register=http://${RHT_OCP4_NEXUS_SERVER}/repository/nodejs 
